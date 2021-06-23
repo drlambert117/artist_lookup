@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <script src="app.js"></script>
 <body>
 
     <label for="artistNameTextInput">Enter an artist to lookup their booking info.</label>
     <input type="text" class="form-control" id="artistNameTextInput" /> <br />
-    <button id="LookupButton" onclick="goPython">Lookup</button>
+    <button id="LookupButton">Lookup</button>
 
-        <script>
-            function goPython(){
-                $.ajax({
-                  url: "scrape.py",
-                 context: document.body
-                }).done(function() {
-                 alert('finished python script');;
-                });
-            }
-        </script>
 
 </body>
 </html>
