@@ -1,4 +1,4 @@
-var $;
+
 $(document).ready(function () {
     console.log("ready function called.");
 
