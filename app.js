@@ -1,6 +1,4 @@
-
-$(document).ready(function () {
-    console.log("ready function called.");
+var $;
 
     //Button Click on Enter
     $("#countryCodeTextInput").keyup(function (event) {
